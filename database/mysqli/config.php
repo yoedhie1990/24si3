@@ -4,5 +4,5 @@
 $conn = mysqli_connect("localhost", "root", "", "24SI3");
 
 if (!$conn) {
-    die("Koneksi gagal: " . mysqli_connect_error());
+    die("Koneksi gagal ya " . mysqli_connect_error());
 }
